@@ -1,0 +1,31 @@
+{{> header}}
+    <form action="" method="post">
+        <label for="producto">producto</label><br>
+        <select id="producto">
+            <option value="1">Arroz</option>
+            <option value="2">Leche</option>
+            <option value="3">Pan</option>
+        </select>
+        <br>
+        <label for="precio">Precio:</label> <br>
+        <input type="text" id="precio"> <br>
+
+        <label for="cantidad">Cantidad:</label> <br>
+        <input type="text" id="cantidad"> <br>
+
+        <label for="subtotal">Subtotal:</label> <br>
+        <input type="text" id="subtotal" readonly><br><br>
+
+        <!-- <input type="submit" value="Calcular"> -->
+        <!-- <button type="button" id="btnRegistrar" type="button">Registrar</button><br> -->
+    </form>
+
+    
+
+    <p id="respuesta">
+        xxxxxxxxxxxxxxxxxxxxxx
+    </p>
+
+    <script src="../../assets/js/funciones.js"></script>
+
+{{footer}}

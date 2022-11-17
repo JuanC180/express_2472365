@@ -1,0 +1,146 @@
+.contenedor{
+    /* margin-left: 100px; */
+
+}
+
+body{
+    background-color: rgb(227, 233, 232);
+}
+
+.formulario{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+fieldset{
+    max-width:500px;
+    padding:16px;	
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.form__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+        /* padding-left: 50px;
+    padding-right: 50px; */
+    /* background-color: red; */
+    width: 100%;
+}
+
+.sepador{
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-left: 20px; */
+}
+
+.lblNombre{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+
+
+    /* outline: none !important;
+    border-color: green !important; */
+    /* color: black; */
+}
+.lblNombre:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    border-bottom:2px;
+    border-bottom-style: solid;
+    border-bottom-color:deepskyblue;
+    /* color: black; */
+}
+
+.lblError{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    border-bottom:2px;
+    border-bottom-style: solid;
+    border-bottom-color:red;
+}
+
+.input-file{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin: 0 auto 0; */
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+.btn-boton{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.radio__box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.formulario__busqueda{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    
+}
+
+#lblSearch{
+    width: 200px;
+    
+}
+
+.botones__crud{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
+
+/* .custom-input-file {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+  } */
+  
+  /* .custom-input-file .input-file {
+   border: 10000px solid transparent;
+   cursor: pointer;
+   font-size: 10000px;
+   margin: 0;
+   opacity: 0;
+   outline: 0 none;
+   padding: 0;
+   position: absolute;
+   right: -1000px;
+   top: -1000px;
+  } */
+
