@@ -2,7 +2,8 @@ const express = require('express');
 const { sendFile } = require('express/lib/response');
 const app = express();
 const hbs = require('hbs')
-const port = 1313;
+require('dotenv').config();
+const port = process.env.PORT;
 
 app.use(express.static('public') );
 
@@ -62,6 +63,6 @@ app.get('*', (req, res)=>{
 });
 
 app.listen(port, () => {
-    console.log(`Escuchando por el puerto ${process.env.port = 1313}`)
+    console.log(`Escuchando por el puerto ${process.env.PORT = 1313}`)
 
 })
